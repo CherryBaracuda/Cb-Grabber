@@ -8,7 +8,8 @@ Powerfull python improved and updated stealer writen in python based on Luna Gra
 
 <img src="https://raw.githubusercontent.com/CherryBaracuda/Cb-Grabber/main/images/1.png?raw=true">
 <img src="https://raw.githubusercontent.com/CherryBaracuda/Cb-Grabber/main/images/2.jpg?raw=true">
-### Other features: 
+
+Other features: 
 
 Discord Info
 -Token
