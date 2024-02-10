@@ -479,7 +479,7 @@ class Discord:
             phone = user['phone']
             email = user['email']
 
-            mfa = "``Active``" if user.get('mfa_enabled') else "``Unactive``"
+            mfa = "``Active``" if user.get('mfa_enabled') else "Unactive"
 
             premium_types = {
                 0: "``No Nitro``",
