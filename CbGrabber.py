@@ -1,4 +1,4 @@
-#imports (when you are obfuscating your code you must leave imports untouched)
+#imports - when you are obfuscating your code you must leave imports untouched
 import base64
 import concurrent.futures
 import ctypes
