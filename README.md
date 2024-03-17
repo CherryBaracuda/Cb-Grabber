@@ -2,8 +2,8 @@
 Powerfull python improved and updated stealer writen in python based on Luna Grabber.
 ## Added features:
 ### -Desktop Screenshot you can now change in config
-### -All data comes additionally in one zip file (discord data and system info too)
-### -Logging specyfic type of operating system and its activation key
+### -All data comes additionally in one zip file. Discord data and system info too - so its easier to download your combos
+### -Logging specyfic type of operating system and its activation key (only this grabber doing that now)
 
 
 <img src="https://raw.githubusercontent.com/CherryBaracuda/Cb-Grabber/main/images/1.png?raw=true">
