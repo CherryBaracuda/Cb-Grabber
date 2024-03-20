@@ -1,4 +1,4 @@
-#imports - when you are obfuscating your code you must leave imports untouched u can setup your webhook in line 27
+#imports - when you are obfuscating your code you must leave imports part of code unobfuscated
 import sys
 import os
 import base64
