@@ -19,7 +19,6 @@ Discord Info
 -Email
 -Phone
 -Gift Codes
--Backup Codes
 
 Browser Data
 -Cookies
